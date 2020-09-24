@@ -1,0 +1,29 @@
+.cars {
+  padding-top: 80px;
+  padding-bottom: 20px;
+
+  &__row {
+    margin-top: 60px;
+    opacity: 0.6;
+  }
+
+  &__picture {
+    margin-bottom: 20px;
+
+    &:first-of-type {
+      margin-left: 6.38%;
+    }
+
+    &:nth-of-type(5) {
+      margin-right: 6.38%;
+    }
+
+    &:nth-of-type(4n+6) {
+      margin-left: 12.76%;
+    }
+
+    &:nth-of-type(4n+9) {
+      margin-right: 12.76%;
+    }
+  }
+}
