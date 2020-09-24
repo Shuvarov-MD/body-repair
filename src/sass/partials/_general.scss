@@ -161,12 +161,12 @@ h1, h2, h3 {
   &__item {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   &__button {
     color: $color-light;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 
     &:hover {
       color: $color-dark;
@@ -183,7 +183,7 @@ h1, h2, h3 {
 .select {
   width: 100%;
   padding: 0.923em 3.461em 0.923em 1.307em;
-  background: $color-light url('../img/request/icon/arrow.svg') top 10px right 15px no-repeat;
+  background: $color-light url('../img/request/icon/arrow.svg') top 0.769em right 1.153em no-repeat;
   appearance: none;
   font-size: 0.813rem;
   border: none;

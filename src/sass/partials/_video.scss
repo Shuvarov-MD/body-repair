@@ -1,0 +1,18 @@
+.video {
+  padding-top: 1.25rem;
+  padding-bottom: 5rem;
+
+  &__wrap {
+    max-width: 51.25rem;
+    padding: 1.25rem;
+    border: 0.313rem solid $color-main;
+    margin-top: 3.74rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__content {
+    background-color: $color-dark;
+    height: 24.375rem;
+  }
+}
