@@ -1,0 +1,13 @@
+section.section.consultation
+  .container
+    h2.title.title--center Нужна консультация?
+    p.text.text--center Заполните форму и получите максимально точную цену!
+    form(action="#", method="post", class="form consultation__form")
+      .row
+        .form__item.col-6
+          label(for="consultation-name", class="label") Ваше имя:
+          input(type="text", name="form-consultation--name", placeholder="Введите имя", class="input", id="consultation-name")
+        .form__item.col-6
+          label(for="consultation-tel", class="label") Ваш телефон:
+          input(type="tel", placeholder="+7 (9__) ___-__-__", name="consultation-tel", class="input", id="form-consultation--tel")
+      button(type="submit", class="button consultation__button") Заказать консультацию
