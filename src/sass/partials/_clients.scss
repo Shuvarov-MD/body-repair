@@ -1,0 +1,45 @@
+.clients {
+  background-color: $color-main;
+  padding-bottom: 1.5625rem;
+
+  &__row {
+    margin-top: 3.75rem;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.437rem;
+  }
+
+  &__picture {
+    max-width: 5.625rem;
+    max-height: 5.563rem;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  &__content {
+    flex-basis: 20.375rem;
+  }
+
+  &__author {
+    display: block;
+    color: darken($color-main, 45%);
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    margin-top: 0.75em;
+    color: $color-action;
+  }
+
+  &__text {
+    margin: 1.077em 0 0;
+    color: darken($color-main, 75%);
+    font-size: 0.813rem;
+    font-weight: 700;
+    text-align: left;
+  }
+}
