@@ -3,7 +3,7 @@
   min-height: 100vh;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  background: url('../img/hero/background/hero-bg.jpg') center / cover no-repeat;
+  background: $color-dark url('../img/hero/background/hero-bg.jpg') center / cover no-repeat;
   color: $color-light;
   display: flex;
   
