@@ -1,0 +1,36 @@
+section.section.request
+  .container
+    h2.title.title--center Подробная заявка
+    p.text.text--center Заполните форму и получите максимально точную цену!
+    form(action="#", method="POST", class="form")
+      .form__col  
+        .form__item
+          label(for="brand", class="label") Марка:
+          select(name="form-request--brand", class="select", id="brand")
+            option(value="#", class="option", disabled, selected) Выберите марку
+            option(value="Audi", class="option") Audi
+        .form__item
+          label(for="model", class="label") Модель:
+          select(name="form-request--model", class="select", id="model")
+            option(value="#", class="option", disabled, selected) Выберите модель
+            option(value="A5", class="option") A5
+        .form__item
+          label(for="year", class="label") Год выпуска:
+          select(name="form-request--year", class="select", id="year")
+            option(value="#", class="option", disabled, selected) Выберите год
+            option(value="2019", class="option") 2019
+      .form__col  
+        .form__item
+          label(for="message", class="label") Необходимые детали:
+          textarea(name="form-request--message", cols="30", rows="10", placeholder="Введите", class="textarea", id="message")
+        .form__item
+          label(for="name", class="label") Ваше имя:
+          input(type="text", placeholder="Введите", name="form-request--name", class="input", id="name")
+      .form__col  
+        .form__item
+          label(for="tel", class="label") Ваш телефон:
+          input(type="tel", placeholder="+7 (9__) ___-__-__", name="form-request--tel", class="input", id="tel")
+        .form__item
+          label(for="email", class="label") Ваш e-mail:
+          input(type="email", placeholder="Введите", name="form-request--email" class="input", id="email")
+        button(type="submit", class="button form__button") Узнать цену

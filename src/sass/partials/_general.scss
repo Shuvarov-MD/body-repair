@@ -126,3 +126,83 @@ h1, h2, h3 {
     background-color: transparent;
   }
 }
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.title {
+  font-size: 1.875rem;
+
+  &--center {
+    text-align: center;
+  }
+}
+
+.text {
+  margin-top: 1.25em;
+  margin-bottom: 3.75em;
+  &--center {
+    text-align: center;
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  border: 0.313rem solid $color-light;
+  padding: 3.75rem;
+
+  &__col {
+    flex-basis: 15rem;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  &__button {
+    color: $color-light;
+    margin-top: 30px;
+
+    &:hover {
+      color: $color-dark;
+    }
+  }
+}
+
+.label {
+  display: flex;
+  font-size: 0.813rem;
+  margin-bottom: 0.615em;
+}
+
+.select {
+  width: 100%;
+  padding: 0.923em 3.461em 0.923em 1.307em;
+  background: $color-light url('../img/request/icon/arrow.svg') top 10px right 15px no-repeat;
+  appearance: none;
+  font-size: 0.813rem;
+  border: none;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  background-color: $color-light;
+  padding: 0.923em 3.461em 0.923em 1.307em;
+  font-size: 0.813rem;
+  border: none;
+}
+
+.textarea {
+  font-size: 0.813rem;
+  border: none;
+  width: 100%;
+  max-height: 7.5rem;
+  padding: 1.076em 1.307em;
+  resize: none;
+}
