@@ -9,6 +9,13 @@
     justify-content: center;
     align-items: center;
     background-color: $color-secondary;
+    opacity: 0;
+    transition: all 0.3s linear;
+
+    &--active {
+      display: flex;
+      opacity: 1;
+    }
   }
 
   &__content {
@@ -18,15 +25,15 @@
     background-color: $color-light;
 
     &--thanks {
-      display: none;
+      display: block;
     }
   
     &--callback {
-      display: none;
+      display: block;
     }
   
     &--quick-request {
-      display: none;
+      display: block;
     }
   }
 
