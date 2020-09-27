@@ -30,8 +30,10 @@
     color: inherit;
     transition: color 0.3s linear;
 
-    &:hover {
-      color: darken($color-light, 45%);
+    @media screen and (min-width: 992px) {
+      &:hover {
+        color: darken($color-light, 45%);
+      }
     }
   }
 

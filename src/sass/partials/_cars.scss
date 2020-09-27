@@ -12,18 +12,34 @@
 
     &:first-of-type {
       margin-left: 6.38%;
+
+      @media screen and (max-width: 768px) {
+        margin-left: 0;
+      }
     }
 
     &:nth-of-type(5) {
       margin-right: 6.38%;
+
+      @media screen and (max-width: 768px) {
+        margin-right: 0;
+      }
     }
 
     &:nth-of-type(4n+6) {
       margin-left: 12.76%;
+
+      @media screen and (max-width: 768px) {
+        margin-left: 0;
+      }
     }
 
     &:nth-of-type(4n+9) {
       margin-right: 12.76%;
+
+      @media screen and (max-width: 768px) {
+        margin-right: 0;
+      }
     }
   }
 }

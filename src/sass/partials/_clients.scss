@@ -10,13 +10,24 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 3.437rem;
+
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
   }
 
   &__picture {
-    max-width: 5.625rem;
-    max-height: 5.563rem;
+    width: 5.625rem;
+    height: 5.625rem;
+    flex: 0 0 auto;
     overflow: hidden;
     border-radius: 50%;
+    margin-right: 0.625rem;
+
+    @media screen and (max-width: 930px) {
+      width: 6.428rem;
+      height: 6.428rem;
+    }
   }
 
   &__content {

@@ -36,6 +36,14 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+
+    @media screen and (max-width: 930px) {
+      font-size: 2.5rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      margin-top: 0.5em;
+    }
   }
 
   &__subtitle {
@@ -43,15 +51,37 @@
     font-size: 1.875rem;
     font-weight: 400;
     text-transform: none;
+
+    @media screen and (max-width: 930px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    &__row {
+      .hero__col {
+        max-width: 12.5rem;
+      }
+    }
   }
 
   &__col {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 576px) {
+      margin-top: 1.5rem;
+    }
   }
 
   &__text {
     max-width: 10rem;
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 650px) {
+    &__button {
+      max-width: 180px;
+    }
   }
 }

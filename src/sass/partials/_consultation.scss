@@ -13,8 +13,10 @@
     margin: 2.5rem auto 0;
     color: $color-light;
 
-    &:hover {
-      color: $color-dark;
+    @media screen and (min-width: 992px) {
+      &:hover {
+        color: $color-dark;
+      }
     }
   }
 }

@@ -3,6 +3,6 @@
     h2.title.title--center Имеем в наличии детали на авто:
     .row.justify-content-center.cars__row
       each car in ['audi', 'mercedes-benz', 'bmw', 'volkswagen', 'jaguar', 'volvo', 'mini', 'land-rover', 'honda', 'jeep', 'bentley', 'porsche', 'mazda']
-        picture.picture.col-2.cars__picture
+        picture.picture.col-6.col-sm-4.col-md-2.cars__picture
           source(srcset=`./img/cars/${car}/${car}-logo.webp, ./img/cars/${car}/${car}-logo@2x.webp 2x`, type="image/webp")
           img(src="#", alt=`${car}`, srcset=`./img/cars/${car}/${car}-logo.jpg, ./img/cars/${car}/${car}-logo@2x.jpg 2x`)

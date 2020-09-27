@@ -15,4 +15,8 @@
     background-color: $color-dark;
     height: 24.375rem;
   }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }

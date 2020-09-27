@@ -5,6 +5,10 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
+
+  @media screen and (max-width: 930px) {
+    font-size: 14px;
+  }
 }
 
 body {
@@ -30,6 +34,10 @@ h1, h2, h3 {
   font-size: 1.875rem;
   text-decoration: none;
   text-transform: uppercase;
+
+  @media screen and (max-width: 576px) {
+    font-size: 1.5rem;
+  }
 }
 
 .phone {
@@ -46,17 +54,25 @@ h1, h2, h3 {
     &--light {
       color: $color-light;
 
-      &:hover {
-        color: darken($color-light, 25%);
+      @media screen and (min-width: 992px) {
+        &:hover {
+          color: darken($color-light, 25%);
+        }
       }
     }
 
     &--dark {
       color: $color-dark;
 
-      &:hover {
-        color: lighten($color-dark, 45%);
+      @media screen and (min-width: 992px) {
+        &:hover {
+          color: lighten($color-dark, 45%);
+        }
       }
+    }
+
+    @media screen and (max-width: 576px) {
+      font-size: 1.5rem;
     }
   }
 
@@ -65,8 +81,10 @@ h1, h2, h3 {
     text-decoration: underline;
     transition: color 0.3s linear;
 
-    &:hover {
-      color: lighten($color-action, 30%);
+    @media screen and (min-width: 992px) {
+      &:hover {
+        color: lighten($color-action, 30%);
+      }
     }
   }
 }
@@ -122,8 +140,10 @@ h1, h2, h3 {
   cursor: pointer;
   transition: all 0.3s linear;
 
-  &:hover {
-    background-color: transparent;
+  @media screen and (min-width: 992px) {
+    &:hover {
+      background-color: transparent;
+    }
   }
 }
 
@@ -154,6 +174,14 @@ h1, h2, h3 {
   border: 0.313rem solid $color-light;
   padding: 3.75rem;
 
+  @media screen and (max-width: 800px) {
+    padding: 1.75rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
   &__col {
     flex-basis: 15rem;
   }
@@ -168,8 +196,15 @@ h1, h2, h3 {
     color: $color-light;
     margin-top: 1.875rem;
 
-    &:hover {
-      color: $color-dark;
+    @media screen and (min-width: 992px) {
+      &:hover {
+        color: $color-dark;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }

@@ -36,14 +36,14 @@
 
   &__text {
     font-size: 0.75rem;
-    margin-top: 6px;
+    margin-top: 0.5em;
     margin-bottom: 0;
   }
 
   &__close {
     position: absolute;
     top: 0;
-    right: -32px;
+    right: -2rem;
     width: 1.375rem;
     height: 1.375rem;
     border: none;
@@ -52,9 +52,10 @@
   }
 
   &__input {
-    width: 13.75rem;
-    padding: 12px 30px 12px 15px;
-    margin-top: 10px;
+    width: 100%;
+    max-width: 13.75rem;
+    padding: 1em 2.5em 1em 1.25em;
+    margin-top: 0.833em;
     border: 0.063rem solid darken($color-main, 5%);
     color: $color-dark;
     font-size: 0.75rem;
@@ -64,7 +65,7 @@
     }
 
     &:first-of-type {
-      margin-top: 18px;
+      margin-top: 1.5em;
     }
 
     &[type="text"] {
@@ -81,13 +82,15 @@
   }
 
   &__button {
-    width: 220px;
-    margin-top: 15px;
+    max-width: 13.75rem;
+    margin-top: 1em;
     color: $color-light;
     font-size: 1rem;
     
-    &:hover {
-      color: $color-dark;
+    @media screen and (min-width: 992px) {
+      &:hover {
+        color: $color-dark;
+      }
     }
   }
 }

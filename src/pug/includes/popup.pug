@@ -7,16 +7,16 @@
     h3.popup__title.title--center Заказ обратного звонка
     p.popup__text.text--center Оставьте заявку и мы Вам перезвоним!
     form(action="#", method="post", class="popup__form")
-      input(type="text", name="form-callback--name", placeholder="Ваше имя", class="popup__input")
-      input(type="tel", name="form-callback--tel", placeholder="Ваш телефон", class="popup__input")
-      input(type="email", name="form-callback--email", placeholder="Ваша почта", class="popup__input")
+      input(type="text", name="form-callback--name", placeholder="Ваше имя", class="popup__input", required)
+      input(type="tel", name="form-callback--tel", placeholder="Ваш телефон", class="popup__input", required)
+      input(type="email", name="form-callback--email", placeholder="Ваша почта", class="popup__input", required)
       button(type="submit", class="button popup__button") Отправить заявку
     button.popup__close
   .popup__content.popup__content--quick-request
     h3.popup__title.title--center Быстрая заявка
     p.popup__text.text--center Оставьте заявку и мы Вам перезвоним!
     form(action="#", method="post", class="popup__form")
-      input(type="text", name="form-quick-request--name", placeholder="Ваше имя", class="popup__input")
-      input(type="tel", name="form-quick-request--tel", placeholder="Ваш телефон", class="popup__input")
+      input(type="text", name="form-quick-request--name", placeholder="Ваше имя", class="popup__input", required)
+      input(type="tel", name="form-quick-request--tel", placeholder="Ваш телефон", class="popup__input", required)
       button(type="submit", class="button popup__button") Отправить заявку
     button.popup__close
