@@ -2,23 +2,20 @@ section.section.request#request
   .container
     h2.title.title--center Подробная заявка
     p.text.text--center Заполните форму и получите максимально точную цену!
-    form(action="#", method="post", class="form")
+    form(action="#", method="post", class="form request__form")
       .form__col
         .form__item
           label(for="brand", class="label") Марка:
           select(name="form-request--brand", class="select", id="brand", required)
             option(value="", class="option", disabled, selected) Выберите марку
-            option(value="Audi", class="option") Audi
         .form__item
           label(for="model", class="label") Модель:
           select(name="form-request--model", class="select", id="model", required)
             option(value="", class="option", disabled, selected) Выберите модель
-            option(value="A5", class="option") A5
         .form__item
           label(for="year", class="label") Год выпуска:
           select(name="form-request--year", class="select", id="year", required)
             option(value="", class="option", disabled, selected) Выберите год
-            option(value="2019", class="option") 2019
       .form__col  
         .form__item
           label(for="message", class="label") Необходимые детали:

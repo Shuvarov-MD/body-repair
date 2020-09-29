@@ -1,0 +1,67 @@
+[
+  {
+    "brand": "Audi",
+    "model": ["A4", "A3", "A6", "Q3", "Q5", "A8", "Q7", "A7", "Q8", "RS4", "RS5"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": ["A-class", "A-class Sedan", "AMG GT", "B-class", "C-class", "Citan", "CLA", "CLS"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "BMW",
+    "model": ["X5", "X1", "i8", "X6", "X3", "M5"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": ["Polo", "Passat", "Jetta", "Tiguan", "Caddy", "Touareg", "Arteon", "Teramont"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Jaguar",
+    "model": ["F-type", "XJ", "XF", "F-PACE", "XE", "E-PACE", "I-PACE"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Volvo",
+    "model": ["XC60", "XC90", "XC40", "S60", "V90", "V60", "S90"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Mini",
+    "model": ["Countryman", "Convertible", "5 door", "Clubman"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Land Rover",
+    "model": ["Defender", "Discovery", "Range Rover", "Range Rover Evoque", "Discovery Sport", "Range Rover Sport", "Range Rover Velar"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"]
+  },
+  {
+    "brand": "Honda",
+    "model": ["CR-V", "Pilot"],
+    "year": ["2010", "2011", "2012", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Jeep",
+    "model": ["Wrangler", "Cherokee", "Renegade", "Compass", "Grand Cherokee"],
+    "year": ["2014", "2015", "2016", "2017", "2018", "2019"]
+  },
+  {
+    "brand": "Bentley",
+    "model": ["Bentayga", "Mulsanne", "Continental GT", "Flying Spur"],
+    "year": ["2017", "2018", "2019"]
+  },
+  {
+    "brand": "Porsche",
+    "model": ["911", "Cayenne", "Panamera", "Taycan", "Macan", "718"],
+    "year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"]
+  },
+  {
+    "brand": "Mazda",
+    "model": ["3", "6", "CX-5", "CX-9"],
+    "year": ["2014", "2015", "2016", "2017", "2018", "2019"]
+  }
+]
