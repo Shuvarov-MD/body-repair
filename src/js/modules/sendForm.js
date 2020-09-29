@@ -9,7 +9,7 @@ const sendForm = () => {
     <div class='sk-bounce-2 sk-child'></div>
     <div class='sk-bounce-3 sk-child'></div>`;
 
-  const postData = formData => fetch('../php/server.php', {
+  const postData = formData => fetch('./php/server.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

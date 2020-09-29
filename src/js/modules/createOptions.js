@@ -5,7 +5,7 @@ const createOptions = () => {
   modelOption.disabled = true;
   yearOption.disabled = true;
 
-  const createResponse = () => fetch('../db/cars.json', {
+  const createResponse = () => fetch('./db/cars.json', {
     method: 'GET',
     headers: {
       'Content-Type': "application/json"
