@@ -42,6 +42,7 @@
     }
 
     @media screen and (max-width: 576px) {
+      font-size: 2rem;
       margin-top: 0.5em;
     }
   }
@@ -54,6 +55,10 @@
 
     @media screen and (max-width: 930px) {
       font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      font-size: 1.25rem;
     }
   }
 

@@ -2,4 +2,8 @@
   .container
     h2.title.title--center Вы можете посмотреть что происходит у нас!
     .video__wrap
-      iframe(src="https://www.youtube.com/embed/ZRXEdSqNSmo", allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen, class="video__content")
+      video(autoplay="autoplay", loop="loop", class="video__content")
+        source(src="./video/body-repair.mp4", type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"')
+        source(src="./video/body-repair.webm", type='video/webm; codecs="vp8, vorbis"')
+        | Элемент video не поддерживается вашим браузером. 
+        <a href="./video/body-repair.mp4">Скачайте видео</a>.
