@@ -114,6 +114,10 @@ button {
     margin-top: 1.875em;
     font-size: 1rem;
     font-weight: 700;
+
+    &--center {
+      text-align: center;
+    }
   }
 
   &__text {
